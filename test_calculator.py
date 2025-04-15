@@ -17,7 +17,7 @@ class Test(unittest.TestCase):
     def test_divide_by_zerp(self):
         self.assertEqual(self.c.div(15, 0), 0)
         with self.assertRaises(ZeroDivisionError):
-            self.c.divide(0, 15)
+            self.c.div(0, 15)
     def test_logarithm(self):
         self.assertEqual(self.c.log(2, 8),3)
         self.assertEqual(self.c.log(3, 9), 2)
@@ -31,5 +31,4 @@ class Test(unittest.TestCase):
             self.c.log(0, 12)
 if __name__ == "__main__":
     unittest.main()
-
 
