@@ -1,3 +1,6 @@
+#https://github.com/JuanCavallin/Lab10-JC-KG
+#Partner 1: Juan Cavallin
+#Partner 2: Kieran Galveston
 import unittest
 import calculator as c
 
