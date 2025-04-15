@@ -3,6 +3,14 @@
 #Partner 2: Kieran Galveston
 import math
 
+def square_root(a):
+    if a < 0:
+        raise ValueError()
+    return math.sqrt(a)
+
+def hypotenuse(a, b):
+    return math.sqrt((a ** 2 + b ** 2))
+
 def add(a, b):
     return a + b
 def subtract(a, b):
@@ -19,5 +27,4 @@ def logarithm(a, b):
     return math.log(b, a)
 def exponent(a, b):
     return a ** b
-
 
