@@ -1,6 +1,8 @@
 #https://github.com/JuanCavallin/Lab10-JC-KG
 #Partner 1: Juan Cavallin
 #Partner 2: Kieran Galveston
+import math
+
 def square_root(a):
     if a < 0:
         raise ValueError()
@@ -26,3 +28,9 @@ def log(a, b):
 def exp(a, b):
     return a ** b
 
+def subtract(a, b):
+    return a - b
+def logarithm(a, b):
+    if a <= 0 or b <= 1:
+        raise ValueError()
+    return math.log(b, a)
